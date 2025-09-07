@@ -1,1 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Instrument+Serif:regular,italic);
+
 @import "tailwindcss";
+
+.serif {
+    font-family: 'Instrument Serif';
+}
