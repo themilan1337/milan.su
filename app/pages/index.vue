@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="max-w-md mt-24 mx-auto flex flex-col">
+        <div class="max-w-md mt-24 px-4 mx-auto flex flex-col">
             <div class="header text-left text-zinc-700">
                 <img src="/milan.jpeg" class="rounded-full mb-4 h-16 w-16" alt="">
                 <h1 class="text-3xl font-bold serif">Milan Gorislavets.</h1>
