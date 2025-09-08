@@ -27,15 +27,30 @@ const projects = [
 
 <template>
     <main>
-        <div class="max-w-lg mt-12 px-4 mx-auto flex flex-col">
+        <div class="max-w-lg mt-8 sm:mt-12 px-4 sm:px-6 mx-auto flex flex-col">
             <div class="header text-left text-zinc-700">
-                <div class="flex -space-x-6">
-                    <NuxtImg src="/milan.jpeg" class="rounded-full mb-4 h-16 w-16 border-4 object-cover border-zinc-200"alt=""></NuxtImg>
-                    <NuxtImg src="/1.jpg" class="rounded-full object-cover mb-4 h-16 w-16 border-4 border-zinc-200" alt=""></NuxtImg>
-                    <NuxtImg src="/2.jpg" class="rounded-full object-cover mb-4 h-16 w-16 border-4 border-zinc-200" alt=""></NuxtImg>
+                <div 
+                    class="flex -space-x-6"
+                    v-motion
+                    :initial="{ opacity: 0, y: -50 }"
+                    :enter="{ opacity: 1, y: 0, transition: { duration: 800, delay: 200 } }"
+                >
+                    <NuxtImg src="/milan.jpeg" class="rounded-full mb-4 h-12 w-12 sm:h-16 sm:w-16 border-2 sm:border-4 object-cover border-zinc-200" alt="Milan Gorislavets" loading="eager" priority></NuxtImg>
+                    <NuxtImg src="/1.jpg" class="rounded-full object-cover mb-4 h-12 w-12 sm:h-16 sm:w-16 border-2 sm:border-4 border-zinc-200" alt="" loading="lazy"></NuxtImg>
+                    <NuxtImg src="/2.jpg" class="rounded-full object-cover mb-4 h-12 w-12 sm:h-16 sm:w-16 border-2 sm:border-4 border-zinc-200" alt="" loading="lazy"></NuxtImg>
                 </div>
-                <h1 class="text-3xl font-bold serif">Milan Gorislavets.</h1>
-                <p class="text-zinc-600 flex flex-col sm:flex-row items-start sm:items-center flex-wrap">
+                <h1 
+                     class="text-2xl sm:text-3xl font-bold serif"
+                     v-motion
+                     :initial="{ opacity: 0, x: -30 }"
+                     :enter="{ opacity: 1, x: 0, transition: { duration: 600, delay: 400 } }"
+                 >Milan Gorislavets.</h1>
+                <p 
+                    class="text-zinc-600 flex flex-col sm:flex-row items-start sm:items-center flex-wrap"
+                    v-motion
+                    :initial="{ opacity: 0, y: 20 }"
+                    :enter="{ opacity: 1, y: 0, transition: { duration: 600, delay: 600 } }"
+                >
                     <span class="flex items-center">
                         🚀 #1 Peerlist Hunter | Collaborator | CEO @ CatOps
                     </span>
@@ -43,10 +58,15 @@ const projects = [
                         Open to exciting projects (DM if you'd like to work together)
                     </span>
                 </p>
-                <div class="flex space-x-4 my-4">
+                <div 
+                     class="flex space-x-3 sm:space-x-4 my-4"
+                     v-motion
+                     :initial="{ opacity: 0, scale: 0.8 }"
+                     :enter="{ opacity: 1, scale: 1, transition: { duration: 500, delay: 800 } }"
+                >
                     <a href="https://www.linkedin.com/in/gorislavets/"
                         class="text-zinc-600 hover:text-zinc-400 transition">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        <svg class="w-5 h-5 sm:w-6 sm:h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                             viewBox="0 0 24 24">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5" color="currentColor">
@@ -57,7 +77,7 @@ const projects = [
                         </svg>
                     </a>
                     <a href="https://x.com/@MGorislavets" class="text-zinc-600 hover:text-zinc-400 transition">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        <svg class="w-5 h-5 sm:w-6 sm:h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                             viewBox="0 0 24 24">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5" color="currentColor">
@@ -69,7 +89,7 @@ const projects = [
                         </svg>
                     </a>
                     <a href="https://instagram.com/milan1337_" class="text-zinc-600 hover:text-zinc-400 transition">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        <svg class="w-5 h-5 sm:w-6 sm:h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                             viewBox="0 0 24 24">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5" color="currentColor">
@@ -80,7 +100,7 @@ const projects = [
                         </svg>
                     </a>
                     <a href="mailto:milan@gorislavets.com" class="text-zinc-600 hover:text-zinc-400 transition">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        <svg class="w-5 h-5 sm:w-6 sm:h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                             viewBox="0 0 24 24">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5" color="currentColor">
@@ -94,7 +114,7 @@ const projects = [
                         </svg>
                     </a>
                     <a href="https://peerlist.io/goris" class="text-zinc-600 hover:text-zinc-400 transition">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        <svg class="w-5 h-5 sm:w-6 sm:h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                             viewBox="0 0 24 24">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5">
@@ -105,19 +125,39 @@ const projects = [
                         </svg>
                     </a>
                 </div>
-                <p class="text-zinc-600">
-                    👋🏻 Hi, I’m Milan! I’m passionate about programming, especially web development, and I love
+                <p 
+                    class="text-zinc-600"
+                    v-motion
+                    :initial="{ opacity: 0, y: 30 }"
+                    :enter="{ opacity: 1, y: 0, transition: { duration: 700, delay: 1000 } }"
+                >
+                    👋🏻 Hi, I'm Milan! I'm passionate about programming, especially web development, and I love
                     building innovative AI products.
                     <br><br>
                     I wrote my first lines of code when I was 11, and now - just 16 and a half years old - Ive already
                     spent nearly six years sharpening my skills, experimenting, and bringing ideas to life.
                 </p>
-                <ProjectCard 
-                    v-for="project in projects" 
-                    :key="project.id" 
-                    :project="project" 
-                />
-                <MyStack />
+                <div
+                    v-motion
+                    :initial="{ opacity: 0, y: 50 }"
+                    :enter="{ opacity: 1, y: 0, transition: { duration: 800, delay: 1200 } }"
+                >
+                    <ProjectCard 
+                        v-for="(project, index) in projects" 
+                        :key="project.id" 
+                        :project="project"
+                        v-motion
+                        :initial="{ opacity: 0, x: -30 }"
+                        :enter="{ opacity: 1, x: 0, transition: { duration: 600, delay: 1400 + (index * 200) } }"
+                    />
+                </div>
+                <div
+                    v-motion
+                    :initial="{ opacity: 0, y: 40 }"
+                    :enter="{ opacity: 1, y: 0, transition: { duration: 700, delay: 2000 } }"
+                >
+                    <MyStack />
+                </div>
             </div>
         </div>
     </main>
