@@ -89,9 +89,9 @@
                     spent nearly six years sharpening my skills, experimenting, and bringing ideas to life.
                 </p>
                 <div class="my-4">
-                    <div class="w-full h-48 rounded-xl border border-gray-200">
-                        <div class="p-4 rounded-2xl">
-
+                    <div class="w-full rounded-2xl border border-gray-200">
+                        <div class="p-4">
+                            <img src="/moniq.png" class="w-full h-full object-cover rounded-2xl" alt="">
                         </div>
                     </div>
                 </div>
