@@ -88,7 +88,7 @@
                 <div class="my-4">
                     <div class="w-full rounded-2xl border border-gray-200">
                         <div class="p-4">
-                            <img src="/moniq.png" class="w-full h-full object-cover rounded-2xl" alt="">
+                            <NuxtImg src="/moniq.png" class="w-full h-full object-cover rounded-2xl" alt=""></NuxtImg>
                         </div>
                     </div>
                 </div>
