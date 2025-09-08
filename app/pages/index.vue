@@ -3,12 +3,9 @@
         <div class="max-w-lg mt-24 px-4 mx-auto flex flex-col">
             <div class="header text-left text-zinc-700">
                 <div class="flex -space-x-6">
-                    <img src="/milan.jpeg" class="rounded-full mb-4 h-16 w-16 border-4 object-cover border-zinc-200"
-                        alt="">
-                    <img src="https://live-s3-bucket-6bjrdtnk7ph2.cdn.live.tandem.net/54/f1/371394bdf4698585fa89b0233f5e0dc1.jpg"
-                        class="rounded-full object-cover mb-4 h-16 w-16 border-4 border-zinc-200" alt="">
-                    <img src="https://live-s3-bucket-6bjrdtnk7ph2.cdn.live.tandem.net/16/d2/5c81075b598e5489ae0482bd303d8e75.jpg"
-                        class="rounded-full object-cover mb-4 h-16 w-16 border-4 border-zinc-200" alt="">
+                    <NuxtImg src="/milan.jpeg" class="rounded-full mb-4 h-16 w-16 border-4 object-cover border-zinc-200"alt=""></NuxtImg>
+                    <NuxtImg src="/1.jpg" class="rounded-full object-cover mb-4 h-16 w-16 border-4 border-zinc-200" alt=""></NuxtImg>
+                    <NuxtImg src="/2.jpg" class="rounded-full object-cover mb-4 h-16 w-16 border-4 border-zinc-200" alt=""></NuxtImg>
                 </div>
                 <h1 class="text-3xl font-bold serif">Milan Gorislavets.</h1>
                 <p class="text-zinc-600 flex flex-col sm:flex-row items-start sm:items-center flex-wrap">
@@ -71,7 +68,7 @@
                     </a>
                     <a href="https://peerlist.io/goris" class="text-zinc-600 hover:text-zinc-400 transition">
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                            viewBox="0 0 24 24"><!-- Icon from Iconoir by Luca Burgio - https://github.com/iconoir-icons/iconoir/blob/main/LICENSE -->
+                            viewBox="0 0 24 24">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5">
                                 <path
