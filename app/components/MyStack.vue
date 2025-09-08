@@ -3,16 +3,16 @@
                 <div 
                     class="flex mb-4"
                     v-motion
-                    :initial="{ opacity: 0, x: -20 }"
-                    :enter="{ opacity: 1, x: 0, transition: { duration: 600, delay: 200 } }"
+                    :initial="{ opacity: 0 }"
+                    :enter="{ opacity: 1, transition: { duration: 600, delay: 100 } }"
                 >
                     <h1 class="serif text-3xl font-bold mr-4">My Tech Stack</h1>
                 </div>
                     <p 
                         class="text-zinc-600 mb-6"
                         v-motion
-                        :initial="{ opacity: 0, y: 20 }"
-                        :enter="{ opacity: 1, y: 0, transition: { duration: 500, delay: 400 } }"
+                        :initial="{ opacity: 0 }"
+                        :enter="{ opacity: 1, transition: { duration: 600, delay: 200 } }"
                     >
                         Here are the technologies and tools I work with to bring ideas to life. From frontend frameworks to backend solutions, I'm passionate about using the right tool for each project.
                     </p>
@@ -21,8 +21,8 @@
                     <div 
                         class="mb-6"
                         v-motion
-                        :initial="{ opacity: 0, y: 30 }"
-                        :enter="{ opacity: 1, y: 0, transition: { duration: 600, delay: 600 } }"
+                        :initial="{ opacity: 0 }"
+                        :enter="{ opacity: 1, transition: { duration: 600, delay: 300 } }"
                     >
                         <h3 class="text-lg font-semibold text-zinc-700 mb-3">Frontend</h3>
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
@@ -57,8 +57,8 @@
                     <div 
                         class="mb-6"
                         v-motion
-                        :initial="{ opacity: 0, y: 30 }"
-                        :enter="{ opacity: 1, y: 0, transition: { duration: 600, delay: 800 } }"
+                        :initial="{ opacity: 0 }"
+                        :enter="{ opacity: 1, transition: { duration: 600, delay: 400 } }"
                     >
                         <h3 class="text-lg font-semibold text-zinc-700 mb-3">Backend & Database</h3>
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
@@ -84,8 +84,8 @@
                     <!-- Tools & Others -->
                     <div
                         v-motion
-                        :initial="{ opacity: 0, y: 30 }"
-                        :enter="{ opacity: 1, y: 0, transition: { duration: 600, delay: 1000 } }"
+                        :initial="{ opacity: 0 }"
+                        :enter="{ opacity: 1, transition: { duration: 600, delay: 500 } }"
                     >
                         <h3 class="text-lg font-semibold text-zinc-700 mb-3">Tools & Others</h3>
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
