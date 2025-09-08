@@ -28,7 +28,9 @@
                         </svg>
                     </NuxtLink>
                 </div>
-                <NuxtImg :src="project.image" class="w-full h-full object-cover rounded-2xl" :alt="project.name"></NuxtImg>
+                <div class="p-4 border border-zinc-200 rounded-xl">
+                    <NuxtImg :src="project.image" class="w-full h-full object-cover rounded-2xl" :alt="project.name"></NuxtImg>
+                </div>
             </div>
         </div>
     </div>
