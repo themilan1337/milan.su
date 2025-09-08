@@ -88,6 +88,10 @@
                 <div class="my-4">
                     <div class="w-full rounded-2xl border border-gray-200">
                         <div class="p-4">
+                            <div class="flex mb-4">
+                                <h1 class="serif mr-4">Moniq.sh</h1>
+                                <span class="max-w-40 truncate whitespace-nowrap inline-block py-1 px-3 rounded-lg text-xs font-medium bg-zinc-200 text-zinc-800">Jul. 2025 - Sep. 2025</span>
+                            </div>
                             <NuxtImg src="/moniq.png" class="w-full h-full object-cover rounded-2xl" alt=""></NuxtImg>
                         </div>
                     </div>
