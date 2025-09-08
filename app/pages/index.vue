@@ -1,15 +1,16 @@
 <template>
     <main>
-        <div class="max-w-md mt-24 px-4 mx-auto flex flex-col">
+        <div class="max-w-lg mt-24 px-4 mx-auto flex flex-col">
             <div class="header text-left text-zinc-700">
                 <div class="flex -space-x-6">
-                    <img src="/milan.jpeg" class="rounded-full mb-4 h-16 w-16 border-4 border-zinc-200" alt="">
-                    <img src="https://live-s3-bucket-6bjrdtnk7ph2.cdn.live.tandem.net/54/f1/371394bdf4698585fa89b0233f5e0dc1.jpg" class="rounded-full mb-4 h-16 w-16 border-4 border-zinc-200" alt="">
-                    <img src="https://live-s3-bucket-6bjrdtnk7ph2.cdn.live.tandem.net/16/d2/5c81075b598e5489ae0482bd303d8e75.jpg" class="rounded-full mb-4 h-16 w-16 border-4 border-zinc-200" alt="">
+                    <img src="/milan.jpeg" class="rounded-full mb-4 h-16 w-16 border-4 object-cover border-zinc-200" alt="">
+                    <img src="https://live-s3-bucket-6bjrdtnk7ph2.cdn.live.tandem.net/54/f1/371394bdf4698585fa89b0233f5e0dc1.jpg" class="rounded-full object-cover mb-4 h-16 w-16 border-4 border-zinc-200" alt="">
+                    <img src="https://live-s3-bucket-6bjrdtnk7ph2.cdn.live.tandem.net/16/d2/5c81075b598e5489ae0482bd303d8e75.jpg" class="rounded-full object-cover mb-4 h-16 w-16 border-4 border-zinc-200" alt="">
                 </div>
                 <h1 class="text-3xl font-bold serif">Milan Gorislavets.</h1>
                 <p class="text-zinc-600">
-                    #1 Peerlist Hunter and collaborator. <br> DM me if you want to work with me. CEO @ CatOps
+                    🚀 #1 Peerlist Hunter | Collaborator | CEO @ CatOps <br>
+                    Open to exciting projects (DM if you’d like to work together)
                 </p>
                 <div class="flex space-x-4 my-4">
                     <a href="https://www.linkedin.com/in/gorislavets/" class="text-zinc-600 hover:text-zinc-400 transition">
@@ -26,10 +27,13 @@
                     </a>
                 </div>
                 <p class="text-zinc-600">
-                        👋🏻 Hello, there! My name is Milan and im really into programming (especially web development). Also, i love creating amazing AI products.
+                        👋🏻 Hi, I’m Milan! I’m passionate about programming, especially web development, and I love building innovative AI products.
                         <br><br>
-                        When i was 11 i started learning how to code. That's funny because it was almost 6 years ago but im only 16 and a half right now.
+                        I wrote my first lines of code when I was 11, and now - just 16 and a half years old - Ive already spent nearly six years sharpening my skills, experimenting, and bringing ideas to life.
                 </p>
+                <div class="my-4">
+                    <div class="w-full h-48 rounded-xl border border-gray-200"></div>
+                </div>
             </div>
         </div>
     </main>
