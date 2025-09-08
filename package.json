@@ -21,7 +21,6 @@
     "@vercel/analytics": "^1.5.0",
     "@vueuse/motion": "^3.0.3",
     "nuxt": "^4.0.1",
-    "nuxt-compress": "^5.0.0",
     "tailwindcss": "^4.1.11",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"

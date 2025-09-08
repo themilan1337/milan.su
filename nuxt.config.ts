@@ -9,8 +9,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@vueuse/motion/nuxt',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots',
-    'nuxt-compress'
+    '@nuxtjs/robots'
   ],
   css: ['~/assets/css/main.css'],
   
