@@ -117,6 +117,7 @@ const projects = [
                     :key="project.id" 
                     :project="project" 
                 />
+                <MyStack />
             </div>
         </div>
     </main>
