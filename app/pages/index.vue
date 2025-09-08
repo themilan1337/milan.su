@@ -14,6 +14,13 @@ const projects = [
         period: 'Nov. 2024 - Active',
         websiteUrl: 'https://aqyl.app/',
         image: '/aqyl.png'
+    },
+    {
+        id: 3,
+        name: 'Artegopaints.kz',
+        period: 'Sep. 2023 - Active',
+        websiteUrl: 'https://artegopaints.kz/',
+        image: '/artego.png'
     }
 ]
 </script>
