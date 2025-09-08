@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="max-w-lg mt-24 px-4 mx-auto flex flex-col">
+        <div class="max-w-lg mt-12 px-4 mx-auto flex flex-col">
             <div class="header text-left text-zinc-700">
                 <div class="flex -space-x-6">
                     <NuxtImg src="/milan.jpeg" class="rounded-full mb-4 h-16 w-16 border-4 object-cover border-zinc-200"alt=""></NuxtImg>
