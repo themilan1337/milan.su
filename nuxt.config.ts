@@ -4,8 +4,8 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: [
-    '@nuxt/fonts', 
-    '@nuxt/scripts', 
+    '@nuxt/fonts',
+    '@nuxt/scripts',
     '@nuxt/image',
     '@vueuse/motion/nuxt',
     '@nuxtjs/sitemap',

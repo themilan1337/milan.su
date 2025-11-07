@@ -37,6 +37,7 @@ const projects = [
                 >
                     <NuxtImg src="/milan.jpeg" class="rounded-full mb-4 h-12 w-12 sm:h-16 sm:w-16 border-2 sm:border-4 object-cover border-zinc-200" alt="Milan Gorislavets" loading="eager" priority></NuxtImg>
                     <NuxtImg src="/1.jpg" class="rounded-full object-cover mb-4 h-12 w-12 sm:h-16 sm:w-16 border-2 sm:border-4 border-zinc-200" alt="" loading="lazy"></NuxtImg>
+                    <NuxtImg src="/4.jpg" class="rounded-full object-cover mb-4 h-12 w-12 sm:h-16 sm:w-16 border-2 sm:border-4 border-zinc-200" alt="" loading="lazy"></NuxtImg>
                     <NuxtImg src="/2.jpg" class="rounded-full object-cover mb-4 h-12 w-12 sm:h-16 sm:w-16 border-2 sm:border-4 border-zinc-200" alt="" loading="lazy"></NuxtImg>
                 </div>
                 <h1 
