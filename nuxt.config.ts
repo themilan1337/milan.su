@@ -13,13 +13,11 @@ export default defineNuxtConfig({
   ],
   css: ['~/assets/css/main.css'],
   
-  // Performance optimizations
   experimental: {
     payloadExtraction: false,
     renderJsonPayloads: true
   },
   
-  // Image optimization
   image: {
     quality: 80,
     format: ['webp', 'avif'],

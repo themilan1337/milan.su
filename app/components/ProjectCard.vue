@@ -28,7 +28,7 @@
                         </svg>
                     </NuxtLink>
                 </div>
-                <div class="p-4 border border-zinc-200 rounded-xl">
+                <div v-if="project.image" class="p-4 border border-zinc-200 rounded-xl">
                     <NuxtImg :src="project.image" class="w-full h-full object-cover rounded-2xl" :alt="project.name" loading="lazy" placeholder="blur"></NuxtImg>
                 </div>
             </div>

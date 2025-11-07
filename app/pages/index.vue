@@ -2,25 +2,25 @@
 const projects = [
     {
         id: 1,
-        name: 'Moniq.sh',
-        period: 'Jul. 2025 - Sep. 2025',
-        githubUrl: 'https://github.com/',
-        websiteUrl: 'https://moniq.sh/',
-        image: '/moniq.png'
+        name: 'CatOps',
+        period: 'ACTIVE',
+        githubUrl: 'https://github.com/mfhonley/catops',
+        websiteUrl: 'https://catops.io/',
+        image: '/catops.png'
     },
     {
         id: 2,
-        name: 'AqylApp',
-        period: 'Nov. 2024 - Active',
-        websiteUrl: 'https://aqyl.app/',
-        image: '/aqyl.png'
+        name: 'AdiletAI',
+        period: 'ACTIVE',
+        websiteUrl: 'https://zakon-chi.vercel.app/',
+        image: '/adilet.png'
     },
     {
         id: 3,
-        name: 'Artegopaints.kz',
-        period: 'Sep. 2023 - Active',
-        websiteUrl: 'https://artegopaints.kz/',
-        image: '/artego.png'
+        name: 'SereneAI',
+        period: 'INACTIVE',
+        websiteUrl: 'https://github.com/themilan1337/serene.ws',
+        image: '/serene.jpeg'
     }
 ]
 </script>
