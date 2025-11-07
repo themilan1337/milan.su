@@ -55,7 +55,7 @@ const projects = [
                         🚀 #1 Peerlist Hunter | Collaborator | CEO @ CatOps
                     </span>
                     <span class="text-sm sm:text-base">
-                        Open to exciting projects (DM if you'd like to work together)
+                        AI Engineer, Full-Stack Developer, Enterpreneur.
                     </span>
                 </p>
                 <div 
